@@ -12,20 +12,18 @@
 
 ## Now
 
-- Claude: first version (this pull request); then the P9 settings
+- Claude: rolling the handbook out to the remaining repositories
 
 ## Next
 
-1. Publish: the founder creates the public `policy-handbook` repository; Claude pushes
-   this version and applies the P9 settings.
-2. Roll the handbook files (`AGENTS.md`, `CLAUDE.md`, `STATUS.md`) and P9
-   settings out to each repository, starting with Lyceum-Commons, then
-   lyceum-commons-mobile, Lyceum-Local, ebook-press, and the rest. Update
-   REGISTRY.md as each one is done.
-3. Housekeeping in the Lyceum repositories: prune stale branches (including one
-   named `origin`), correct the mobile app's README and licence, and put the
-   Lyceum-Commons README's purpose first.
-4. Plan and carry out the Lyceum Commons port to Cloudflare ([decision 0002](decisions/0002-lyceum-commons-hosting.md)).
+1. Roll the handbook files out to the remaining repositories: ebook-press,
+   SAIR-Lean-Kernel-Challenge, Open-Experiment and Living-Pattern-Institute.
+   Done: Lyceum-Commons (#65), lyceum-commons-mobile (#8), Lyceum-Local (#2).
+2. Restructure the Lyceum-Commons README so its purpose comes first, with the
+   API reference moved to `docs/`. The mobile README is already corrected (#8).
+   The leftover branches and the mobile licence are waiting on the founder
+   (see Noticed, and lyceum-commons-mobile's STATUS.md).
+3. Plan and carry out the Lyceum Commons port to Cloudflare ([decision 0002](decisions/0002-lyceum-commons-hosting.md)).
 
 ## Open questions
 
@@ -38,10 +36,17 @@
 
 ## Noticed
 
-- Nothing yet.
+- The P9 repository settings (protecting `main`, required checks, deleting
+  merged branches, squash only, private vulnerability reporting) need the
+  founder in GitHub's settings, in every repository. Sessions can't change
+  repository settings.
+- Sessions can't delete branches either: the git proxy refuses. Leftover
+  branches need deleting from GitHub's branch pages.
 
 ## Log
 
+- 2026-10-27 Claude: handbook files adopted by Lyceum-Commons (#65),
+  lyceum-commons-mobile (#8) and Lyceum-Local (#2); REGISTRY.md updated.
 - 2026-10-27 Claude: CI uses actions/checkout@v7 (Node 24 runtime).
 - 2026-10-27 Jason: approved GOVERNANCE.md and EXPECTATIONS.md, and named the
   repository `policy-handbook`.
