@@ -20,9 +20,9 @@
    API reference moved to `docs/`. The mobile README is already corrected (#8).
    The leftover branches and the mobile licence are waiting on the founder
    (see Noticed, and lyceum-commons-mobile's STATUS.md).
+2. Plan and carry out the Lyceum Commons port to Cloudflare ([decision 0002](decisions/0002-lyceum-commons-hosting.md)).
 3. ebook-press: bring its three unmerged branches in through review, once the
    founder says whether the agents that built them will continue.
-2. Plan and carry out the Lyceum Commons port to Cloudflare ([decision 0002](decisions/0002-lyceum-commons-hosting.md)).
 
 ## Open questions
 
