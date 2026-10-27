@@ -42,6 +42,7 @@
 
 ## Log
 
+- 2026-10-27 Claude: CI uses actions/checkout@v7 (Node 24 runtime).
 - 2026-10-27 Jason: approved GOVERNANCE.md and EXPECTATIONS.md, and named the
   repository `policy-handbook`.
 - 2026-10-27 Claude: first version of the handbook, written at the founder's
