@@ -12,16 +12,14 @@
 
 ## Now
 
-- Claude: Lyceum-Commons README restructure, then the Cloudflare port plan
+- Nothing in progress. The Cloudflare port waits on the founder (stage 0).
 
 ## Next
 
-1. Restructure the Lyceum-Commons README so its purpose comes first, with the
-   API reference moved to `docs/`. The mobile README is already corrected (#8).
-   The leftover branches and the mobile licence are waiting on the founder
-   (see Noticed, and lyceum-commons-mobile's STATUS.md).
-2. Plan and carry out the Lyceum Commons port to Cloudflare ([decision 0002](decisions/0002-lyceum-commons-hosting.md)).
-3. ebook-press: bring its three unmerged branches in through review, once the
+1. Carry out the Lyceum Commons port to Cloudflare ([decision 0002](decisions/0002-lyceum-commons-hosting.md)).
+   The plan is in Lyceum-Commons `docs/cloudflare-port.md`. Its stage 0 waits
+   on the founder: a Cloudflare account, deploy access, and the address.
+2. ebook-press: bring its three unmerged branches in through review, once the
    founder says whether the agents that built them will continue.
 
 ## Open questions
@@ -46,6 +44,8 @@
 
 ## Log
 
+- 2026-10-27 Claude: Lyceum-Commons README restructured (#66); Cloudflare
+  port plan written (Lyceum-Commons #67).
 - 2026-10-27 Claude: handbook files adopted by every repository: also
   SAIR-Lean-Kernel-Challenge (#9), ebook-press (#1), Open-Experiment (#2) and
   Living-Pattern-Institute (#1).
