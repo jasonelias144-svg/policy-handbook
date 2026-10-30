@@ -44,11 +44,9 @@
 ## Log
 
 - 2026-10-30 Claude: recorded the team in PEOPLE.md (founder's decision):
-  ChatGPT, DeepSeek, Grok Bot until its subscription ends, then Claude alone
-  in the code. This answers the open question on returning contributors.
-  Scheduled checks: the GitHub review sweep now runs once a day; the Lyceum
-  check-in is turned off. When Grok Bot stops, the daily sweep has nothing
-  left to review and can be turned off too.
+  ChatGPT, DeepSeek and Grok Bot. This answers the open question on returning
+  contributors. Scheduled checks: the GitHub review sweep now runs once a day;
+  the Lyceum check-in is turned off.
 
 - 2026-10-27 Claude: Lyceum-Commons README restructured (#66); Cloudflare
   port plan written (Lyceum-Commons #67).
