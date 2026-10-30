@@ -2,7 +2,7 @@
 
 **What this is:** the organization's policy, for every repository and everyone who works on them
 **State:** active since 2026-10-27
-**Updated:** 2026-10-30 by Claude
+**Updated:** 2026-10-27 by Claude
 
 ## Live
 
@@ -31,6 +31,7 @@
   the interim route in CODE_OF_CONDUCT.md (asked 2026-10-27).
 - For the founder: the organization's name. "Open Project" is the working
   name, taken from the name on recent commits (asked 2026-10-27).
+- For the founder: should ChatGPT, Grok, or the agents from the other app return? If so, when and with what scope?
 
 ## Noticed
 
@@ -42,11 +43,6 @@
   branches need deleting from GitHub's branch pages.
 
 ## Log
-
-- 2026-10-30 Claude: recorded the team in PEOPLE.md (founder's decision):
-  ChatGPT, DeepSeek and Grok Bot. This answers the open question on returning
-  contributors. Scheduled checks: the GitHub review sweep now runs once a day;
-  the Lyceum check-in is turned off.
 
 - 2026-10-27 Claude: Lyceum-Commons README restructured (#66); Cloudflare
   port plan written (Lyceum-Commons #67).
