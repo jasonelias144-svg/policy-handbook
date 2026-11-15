@@ -105,4 +105,4 @@ request. The founder approves changes to governance and expectations; the
 technical lead approves changes to protocols and standards. See
 [GOVERNANCE.md](GOVERNANCE.md#changing-this-handbook).
 
-Licence: [CC0 1.0](LICENSE), a public-domain dedication, for this handbook and for every project: anyone may use, change and build on them, for any purpose, without asking and without attribution. It is the founder's standing choice, made once on 2026-11-15 ([STATUS.md](STATUS.md#log)), so no project asks again ([P9](protocols/P9-repositories.md)).
+Licence: [CC0 1.0](LICENSE), a public-domain dedication, for this handbook and every public repository: anyone may use, change and build on them, for any purpose, without asking and without attribution. The founder's standing policy is one licence, always, and CC0 is the one the technical lead chose at the founder's request, so no project asks again ([decision 0003](decisions/0003-licence-cc0.md), [P9](protocols/P9-repositories.md)).

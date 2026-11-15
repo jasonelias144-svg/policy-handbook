@@ -41,6 +41,15 @@
 
 ## Log
 
+- 2026-11-15 Claude: decision 0003 records the licence decision in full, with
+  the founder's words, including the test for public ("If someone can
+  literally access it now, I consider it public"). P9, README.md and
+  GOVERNANCE.md link to it, and say "every public repository": private
+  repositories are not covered. P9 no longer calls SAIR-Lean-Kernel-Challenge
+  "the only place" for another licence, since lyceum-commons-mobile also keeps
+  Expo's MIT notice; it is the one repository built on outside work. Next: a
+  line in CONTRIBUTING.md giving contributions under CC0, copied to each
+  repository.
 - 2026-11-15 Claude: the one exception, in the founder's words the same day:
   "SAIR work is intentionally separate from the other repos. It is the only
   one that includes work and publications from outside. It should be
