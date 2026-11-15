@@ -41,6 +41,13 @@
 
 ## Log
 
+- 2026-11-15 Claude: the one exception, in the founder's words the same day:
+  "SAIR work is intentionally separate from the other repos. It is the only
+  one that includes work and publications from outside. It should be
+  considered distinct because based on something external." And: it "would be
+  the only place to look for a different license". P9 says so. There, the
+  challenge's own files keep their Apache-2.0 licence beside CC0 for ours
+  (SAIR-Lean-Kernel-Challenge #11).
 - 2026-11-15 Claude: licences become a standing rule. The founder, the same
   day: "I do not care to even learn the difference. I expressed my opinion. I
   hoped that would limit it to a single choice. Please decide if there are
