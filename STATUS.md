@@ -41,6 +41,20 @@
 
 ## Log
 
+- 2026-11-15 Claude: licences become a standing rule. The founder, the same
+  day: "I do not care to even learn the difference. I expressed my opinion. I
+  hoped that would limit it to a single choice. Please decide if there are
+  more than one options available that meet the conditions of what I already
+  said." And: "We should change the policy to: "founder always wants this
+  license", whichever is the right license that makes sense to you. I don't
+  want to decide each time when my decision will be the same." The technical
+  lead's choice: CC0 1.0. Of the licences with no restrictions and no
+  attribution (CC0 1.0, the Unlicense, 0BSD, MIT-0), it is the one that covers
+  writing as well as code, and where rights can't be given up entirely it
+  falls back to a licence with no conditions. GOVERNANCE.md moves licences out
+  of the founder's case-by-case decisions; P5 and P9 say the technical lead
+  applies CC0 without asking, and only a departure from it goes to the
+  founder.
 - 2026-11-15 Claude: licence: CC0 1.0 (`LICENSE`), a public-domain
   dedication, by the founder's decision of 2026-11-15: "Consider all free
   and public and use the license we have been using and correct that license

@@ -14,7 +14,7 @@
 | `AGENTS.md` | The rules for working in this repository, for any contributor ([template](../templates/AGENTS.md)) |
 | `CLAUDE.md` | Loads `AGENTS.md` for Claude, and states the technical lead's role ([template](../templates/CLAUDE.md)) |
 | `STATUS.md` | Now, next, open questions, what's live, and the session log ([template](../templates/STATUS.md)) |
-| `LICENSE` | CC0 1.0, a public-domain dedication: the founder's decision of 2026-11-15, for every project. Anything not ours to give (third-party code or text) keeps its own licence, and the README says which. |
+| `LICENSE` | CC0 1.0, a public-domain dedication, in every project: the founder's standing choice of 2026-11-15 ("founder always wants this license"), so the founder is not asked again. The technical lead adds it, or corrects a wrong one, without asking. Anything not ours to give (third-party code or text) keeps its own licence, and the README says which. |
 | Tests, and CI to run them | For anything with code |
 
 `AGENTS.md` is the shared format that many coding agents read. Claude reads
