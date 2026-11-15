@@ -41,7 +41,7 @@ that runs in the browser. Every project, its state and its links are in
 
 | | Decides |
 |---|---|
-| **Founder** (Jason) | What each project is for and who it serves; who works here; accounts, money, licences and other legal matters; this governance. |
+| **Founder** (Jason) | What each project is for and who it serves; who works here; accounts, money and other legal matters (licences are settled: CC0 1.0); this governance. |
 | **Technical lead** (Claude) | Everything about the code: architecture, tools, standards, reviews, merges and releases, within the founder's intent. |
 | **Contributors** | How to do the work they were given, inside its scope. Anyone may propose anything. |
 

@@ -51,10 +51,13 @@
   lead's choice: CC0 1.0. Of the licences with no restrictions and no
   attribution (CC0 1.0, the Unlicense, 0BSD, MIT-0), it is the one that covers
   writing as well as code, and where rights can't be given up entirely it
-  falls back to a licence with no conditions. GOVERNANCE.md moves licences out
-  of the founder's case-by-case decisions; P5 and P9 say the technical lead
-  applies CC0 without asking, and only a departure from it goes to the
-  founder.
+  falls back to a licence with no conditions. One caveat, said plainly: CC0
+  gives up copyright but leaves patent and trademark rights where they were;
+  nothing here is patented. The founder's message asked for this change to
+  GOVERNANCE.md ("We should change the policy to"), so the change is the
+  founder's. GOVERNANCE.md moves licences out of the founder's case-by-case
+  decisions; P5 and P9 say the technical lead applies CC0 without asking, and
+  only a departure from it goes to the founder.
 - 2026-11-15 Claude: licence: CC0 1.0 (`LICENSE`), a public-domain
   dedication, by the founder's decision of 2026-11-15: "Consider all free
   and public and use the license we have been using and correct that license
