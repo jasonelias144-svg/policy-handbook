@@ -17,6 +17,9 @@ Lyceum-Local, Expo's template licence in lyceum-commons-mobile, and CC BY-SA
 
 The founder, 2026-11-15:
 
+> Yes, I may have chosen the wrong license for the pattern institute. It is
+> because I do not care for licensing as a subject of interest. I build what I
+> build for public use and don't really care about much that others care about.
 > Consider all free and public and use the license we have been using and
 > correct that license when I naively chose the wrong one or none. Always
 > consider it all public if in a public repo. If someone can literally access it
@@ -26,11 +29,16 @@ The founder, 2026-11-15:
 > intentionally building something like a public space, like a park or a
 > national park, something that is designed to be used freely.
 
-And:
+And, later the same day:
 
-> Please decide if there are more than one options available that meet the
-> conditions of what I already said.
-
+> I tried to answer the living patten institute question last time. I
+> actually do not care to look up the difference between those licenses you
+> mentioned. That is the point. I do not care to even learn the difference. I
+> expressed my opinion. I hoped that would limit it to a single choice. Please
+> decide if there are more than one options available that meet the conditions
+> of what I already said.
+> Perfect. My hope is that you would be able to change the licenses for the
+> other repos that are not correctly licensed. If not, I'll do it. Thoughts?
 > We should change the policy to: "founder always wants this license",
 > whichever is the right license that makes sense to you. I don't want to
 > decide each time when my decision will be the same.

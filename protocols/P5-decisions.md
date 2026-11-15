@@ -12,7 +12,7 @@ difference** in
 - what it does, or who it is for;
 - what it costs, now or later;
 - what happens to people's data, privacy or safety;
-- what is made public, or under what terms? (Licences are settled: CC0 1.0,
+- what is made public, or under what terms? (Licences are settled: CC0 1.0 for public repositories,
   [P9](P9-repositories.md). Applying it is not a question.)
 
 If yes, it is an intent question. If no, it is a code question. If unsure,
