@@ -24,9 +24,6 @@
 
 ## Open questions
 
-- For the founder: the licence for this handbook and for each project. The
-  Living Pattern Institute README already names a model: CC BY-SA 4.0 for
-  writing and Apache 2.0 for software. Should it apply everywhere? (asked 2026-10-27)
 - For the founder: a private contact address for conduct reports, to replace
   the interim route in CODE_OF_CONDUCT.md (asked 2026-10-27).
 - For the founder: the organization's name. "Open Project" is the working
@@ -43,6 +40,16 @@
   branches need deleting from GitHub's branch pages.
 
 ## Log
+
+- 2026-11-15 Claude: licence: CC0 1.0 (`LICENSE`), a public-domain
+  dedication, by the founder's decision of 2026-11-15: "Consider all free
+  and public and use the license we have been using and correct that license
+  when I naively chose the wrong one or none. Always consider it all public
+  if in a public repo." And: "Please ensure the right license is chosen that
+  is essentially a license that says there is no restrictions and all that.
+  No attribution required." This handbook and every project: wherever one
+  has the wrong licence or none, it gets CC0. P9 says so. The open question
+  on the licence (asked 2026-10-27) is closed.
 
 - 2026-10-27 Claude: Lyceum-Commons README restructured (#66); Cloudflare
   port plan written (Lyceum-Commons #67).

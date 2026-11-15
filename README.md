@@ -105,4 +105,4 @@ request. The founder approves changes to governance and expectations; the
 technical lead approves changes to protocols and standards. See
 [GOVERNANCE.md](GOVERNANCE.md#changing-this-handbook).
 
-Licence: not yet chosen. That is the founder's decision ([STATUS.md](STATUS.md#open-questions)).
+Licence: [CC0 1.0](LICENSE), a public-domain dedication, for this handbook and for every project: anyone may use, change and build on them, for any purpose, without asking and without attribution. The founder decided it on 2026-11-15 ([STATUS.md](STATUS.md#log)).
