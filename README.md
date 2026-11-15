@@ -41,7 +41,7 @@ that runs in the browser. Every project, its state and its links are in
 
 | | Decides |
 |---|---|
-| **Founder** (Jason) | What each project is for and who it serves; who works here; accounts, money, licences and other legal matters; this governance. |
+| **Founder** (Jason) | What each project is for and who it serves; who works here; accounts, money and other legal matters (licences are settled: CC0 1.0); this governance. |
 | **Technical lead** (Claude) | Everything about the code: architecture, tools, standards, reviews, merges and releases, within the founder's intent. |
 | **Contributors** | How to do the work they were given, inside its scope. Anyone may propose anything. |
 
@@ -105,4 +105,4 @@ request. The founder approves changes to governance and expectations; the
 technical lead approves changes to protocols and standards. See
 [GOVERNANCE.md](GOVERNANCE.md#changing-this-handbook).
 
-Licence: not yet chosen. That is the founder's decision ([STATUS.md](STATUS.md#open-questions)).
+Licence: [CC0 1.0](LICENSE), a public-domain dedication, for this handbook and every public repository: anyone may use, change and build on them, for any purpose, without asking and without attribution. The founder's standing policy is one licence, always, and CC0 is the one the technical lead chose at the founder's request, so no project asks again ([decision 0003](decisions/0003-licence-cc0.md), [P9](protocols/P9-repositories.md)).

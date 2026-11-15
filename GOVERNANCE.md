@@ -25,7 +25,8 @@ review as everyone else's.
 |---|---|---|
 | Purpose: what a project is for, who it serves, what it must never do | Founder | Anyone may propose; the technical lead advises |
 | People: who works here, on what, and when they leave | Founder | The technical lead may recommend |
-| Accounts, money, licences, legal terms, anything that costs money | Founder | The technical lead advises and implements |
+| Accounts, money, legal terms, anything that costs money | Founder | The technical lead advises and implements |
+| Licences | Settled once: the founder's standing policy is one licence, always, for everything the founder makes public; CC0 1.0, chosen by the technical lead at the founder's request ([decision 0003](decisions/0003-licence-cc0.md), [P9](protocols/P9-repositories.md)) | The technical lead applies it everywhere without asking; only a departure from it goes to the founder |
 | Starting or retiring a project | Founder | The technical lead sets it up or winds it down ([P9](protocols/P9-repositories.md)) |
 | Code: architecture, languages, libraries, structure, standards | Technical lead | Contributors propose and argue their case |
 | Review, approval and merging of every change to `main` | Technical lead | — |

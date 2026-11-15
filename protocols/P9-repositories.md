@@ -14,7 +14,7 @@
 | `AGENTS.md` | The rules for working in this repository, for any contributor ([template](../templates/AGENTS.md)) |
 | `CLAUDE.md` | Loads `AGENTS.md` for Claude, and states the technical lead's role ([template](../templates/CLAUDE.md)) |
 | `STATUS.md` | Now, next, open questions, what's live, and the session log ([template](../templates/STATUS.md)) |
-| `LICENSE` | Chosen by the founder. Until then, the README says the licence is undecided. |
+| `LICENSE` | CC0 1.0, a public-domain dedication, in every public repository ([decision 0003](../decisions/0003-licence-cc0.md)): the founder's standing policy ("founder always wants this license"), with CC0 chosen by the technical lead, so the founder is not asked again. The technical lead adds it, or corrects a wrong one, without asking. Anything not ours to give (third-party code or text) keeps its own licence, and the README says which. One repository is built on outside work and kept separate for that reason: SAIR-Lean-Kernel-Challenge. |
 | Tests, and CI to run them | For anything with code |
 
 `AGENTS.md` is the shared format that many coding agents read. Claude reads

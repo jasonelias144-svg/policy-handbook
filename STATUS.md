@@ -24,9 +24,6 @@
 
 ## Open questions
 
-- For the founder: the licence for this handbook and for each project. The
-  Living Pattern Institute README already names a model: CC BY-SA 4.0 for
-  writing and Apache 2.0 for software. Should it apply everywhere? (asked 2026-10-27)
 - For the founder: a private contact address for conduct reports, to replace
   the interim route in CODE_OF_CONDUCT.md (asked 2026-10-27).
 - For the founder: the organization's name. "Open Project" is the working
@@ -43,6 +40,49 @@
   branches need deleting from GitHub's branch pages.
 
 ## Log
+
+- 2026-11-15 Claude: decision 0003 records the licence decision in full, with
+  the founder's words, including the test for public ("If someone can
+  literally access it now, I consider it public"). P9, README.md and
+  GOVERNANCE.md link to it, and say "every public repository": private
+  repositories are not covered. P9 no longer calls SAIR-Lean-Kernel-Challenge
+  "the only place" for another licence, since lyceum-commons-mobile also keeps
+  Expo's MIT notice; it is the one repository built on outside work. Next: a
+  line in CONTRIBUTING.md giving contributions under CC0, copied to each
+  repository.
+- 2026-11-15 Claude: the one exception, in the founder's words the same day:
+  "SAIR work is intentionally separate from the other repos. It is the only
+  one that includes work and publications from outside. It should be
+  considered distinct because based on something external." And: it "would be
+  the only place to look for a different license". P9 says so. There, the
+  challenge's own files keep their Apache-2.0 licence beside CC0 for ours
+  (SAIR-Lean-Kernel-Challenge #11).
+- 2026-11-15 Claude: licences become a standing rule. The founder, the same
+  day: "I do not care to even learn the difference. I expressed my opinion. I
+  hoped that would limit it to a single choice. Please decide if there are
+  more than one options available that meet the conditions of what I already
+  said." And: "We should change the policy to: "founder always wants this
+  license", whichever is the right license that makes sense to you. I don't
+  want to decide each time when my decision will be the same." The technical
+  lead's choice: CC0 1.0. Of the licences with no restrictions and no
+  attribution (CC0 1.0, the Unlicense, 0BSD, MIT-0), it is the one that covers
+  writing as well as code, and where rights can't be given up entirely it
+  falls back to a licence with no conditions. One caveat, said plainly: CC0
+  gives up copyright but leaves patent and trademark rights where they were;
+  nothing here is patented. The founder's message asked for this change to
+  GOVERNANCE.md ("We should change the policy to"), so the change is the
+  founder's. GOVERNANCE.md moves licences out of the founder's case-by-case
+  decisions; P5 and P9 say the technical lead applies CC0 without asking, and
+  only a departure from it goes to the founder.
+- 2026-11-15 Claude: licence: CC0 1.0 (`LICENSE`), a public-domain
+  dedication, by the founder's decision of 2026-11-15: "Consider all free
+  and public and use the license we have been using and correct that license
+  when I naively chose the wrong one or none. Always consider it all public
+  if in a public repo." And: "Please ensure the right license is chosen that
+  is essentially a license that says there is no restrictions and all that.
+  No attribution required." This handbook and every project: wherever one
+  has the wrong licence or none, it gets CC0. P9 says so. The open question
+  on the licence (asked 2026-10-27) is closed.
 
 - 2026-10-27 Claude: Lyceum-Commons README restructured (#66); Cloudflare
   port plan written (Lyceum-Commons #67).
