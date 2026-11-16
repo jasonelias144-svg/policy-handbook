@@ -2,7 +2,7 @@
 
 **What this is:** the organization's policy, for every repository and everyone who works on them
 **State:** active since 2026-10-27
-**Updated:** 2026-10-27 by Claude
+**Updated:** 2026-11-16 by Claude
 
 ## Live
 
@@ -24,6 +24,20 @@
 
 ## Open questions
 
+- For the founder, on the two roles ([decision 0004](decisions/0004-founder-and-director.md),
+  asked 2026-11-16):
+  1. What stays the founder's when someone else is director. Recommended:
+     what a project's founding words say it must never do can't be
+     weakened by a later director. In open-worlds that is the charter's
+     floor: exit, voice and information; free, and never a money machine.
+     A project that dropped them would be a different project, and would
+     take another name. Everything else is the director's.
+  2. How the office passes, and what becomes of the accounts, keys and
+     repositories, which are the founder's own today. Recommended: it
+     passes only by the director's own recorded word, naming who takes
+     it and from when. The accounts are a legal question, so they wait
+     for the founder. Neither is needed while the founder is the
+     director.
 - For the founder: a private contact address for conduct reports, to replace
   the interim route in CODE_OF_CONDUCT.md (asked 2026-10-27).
 - For the founder: the organization's name. "Open Project" is the working
@@ -41,6 +55,17 @@
 
 ## Log
 
+- 2026-11-16 Claude: decision 0004: the founder and the director are two
+  roles. The founder, the same day: "We should separate my role as
+  Project Founder, which will always be a matter of history. As opposed
+  to the role of Project Director, which I occupy now, but might not
+  later." GOVERNANCE.md names both and gives the deciding to the
+  director. No other page is rewritten: where one says the founder
+  decides, it means the director, and GOVERNANCE.md says so. Two
+  questions are put to the founder (Open questions). Not done: the
+  protocols, standards, templates and each repository's rules still say
+  "the founder"; they are brought to the new words as they are next
+  changed.
 - 2026-11-15 Claude: decision 0003 records the licence decision in full, with
   the founder's words, including the test for public ("If someone can
   literally access it now, I consider it public"). P9, README.md and
