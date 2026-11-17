@@ -2,7 +2,7 @@
 
 **What this is:** the organization's policy, for every repository and everyone who works on them
 **State:** active since 2026-10-27
-**Updated:** 2026-11-16 by Claude
+**Updated:** 2026-11-17 by Claude
 
 ## Live
 
@@ -24,20 +24,10 @@
 
 ## Open questions
 
-- For the founder, on the two roles ([decision 0004](decisions/0004-founder-and-director.md),
-  asked 2026-11-16):
-  1. What stays the founder's when someone else is director. Recommended:
-     what a project's founding words say it must never do can't be
-     weakened by a later director. In open-worlds that is the charter's
-     floor: exit, voice and information; free, and never a money machine.
-     A project that dropped them would be a different project, and would
-     take another name. Everything else is the director's.
-  2. How the office passes, and what becomes of the accounts, keys and
-     repositories, which are the founder's own today. Recommended: it
-     passes only by the director's own recorded word, naming who takes
-     it and from when. The accounts are a legal question, so they wait
-     for the founder. Neither is needed while the founder is the
-     director.
+- For the founder, when the time comes: what becomes of the accounts, keys
+  and repositories, which are the founder's own today, if the director's
+  office passes. It is the founder's own act, and is not needed while the
+  founder is the director ([decision 0005](decisions/0005-decide-and-what-stays.md)).
 - For the founder: a private contact address for conduct reports, to replace
   the interim route in CODE_OF_CONDUCT.md (asked 2026-10-27).
 - For the founder: the organization's name. "Open Project" is the working
@@ -55,6 +45,18 @@
 
 ## Log
 
+- 2026-11-17 Claude: decision 0005. The founder's general guidance: "If you
+  have to keep asking and you could just decide, then decide. And if that is
+  not enough, imagine what you think I would want." P5 has a section for it,
+  with what still goes to the founder: spending, acts that are the founder's
+  own, and acts towards the outside that can't be taken back. Decided under
+  it, on the recommendations put with decision 0004: no later director can
+  weaken what a project's founding words say it must never do, and the
+  office passes only by the director's own recorded word. GOVERNANCE.md says
+  both. The other questions here are left as they are: a contact address and
+  the organization's name are the founder's own to give, and who returns to
+  the work is the founder's. Not done: pages still say "the founder" where
+  they mean the director, as decision 0004 allows.
 - 2026-11-16 Claude: decision 0004: the founder and the director are two
   roles. The founder, the same day: "We should separate my role as
   Project Founder, which will always be a matter of history. As opposed

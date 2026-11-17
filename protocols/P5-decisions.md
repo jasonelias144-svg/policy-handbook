@@ -39,6 +39,25 @@ What happens meanwhile: <what is paused, and what goes on regardless>
 The founder answers in plain words. The answer is copied next to the question,
 and recorded as a decision if it will matter later.
 
+## When the founder has not answered
+
+The founder's general guidance (2026-11-17,
+[decision 0005](../decisions/0005-decide-and-what-stays.md)): "If you have
+to keep asking and you could just decide, then decide."
+
+- A question that has been put with a recommendation, and not answered, is
+  decided by the technical lead: on the recommendation, or, where there is
+  none settled, by weighing its own view with what the founder would most
+  likely want.
+- Record it where the question was, as decided under this guidance, with the
+  reason. The founder can change it at any time, and their most recent word
+  wins.
+- Do not ask the same question again.
+- What still goes to the founder is only what can't be done or undone for
+  them: spending money; an act that is the founder's own in law or on the
+  founder's own accounts; and an act towards the outside that can't be taken
+  back. Put those once, plainly, and not again until they are needed.
+
 ## Recording decisions
 
 Write a decision record when a decision is hard to reverse, affects more than
