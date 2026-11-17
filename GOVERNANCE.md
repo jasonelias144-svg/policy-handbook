@@ -75,9 +75,11 @@ technical lead. In practice:
 - The power to **halt** any release or change on grounds of intent, at any time.
 - The power to change this governance, including the delegation itself.
 - Ownership of every account, key and repository ([P8](protocols/P8-access.md)).
-  These are the founder's own today. What becomes of them if the office
-  passes to someone else is not settled
-  ([decision 0004](decisions/0004-founder-and-director.md)).
+  These are the founder's own today. The office passes only by the
+  director's own recorded word, naming who takes it and from when. What
+  becomes of the accounts, keys and repositories then is the founder's
+  own act, and is settled when it is needed
+  ([decision 0005](decisions/0005-decide-and-what-stays.md)).
 
 The founder does not write or merge code, and has committed to putting any
 change of their own through the same review as everyone else.
@@ -88,6 +90,12 @@ That the founder began this, and everything recorded as the founder's:
 the words, the founding ideas, and the decisions made while the founder
 was director, which stand as decided until a director changes them by
 the same rules. No one else becomes the founder.
+
+One thing no later director can change: what a project's founding words
+say it must never do. In open-worlds that is the charter's floor: exit,
+voice and information; free, and never a money machine. A project that
+dropped them would be a different project, and would take another name
+([decision 0005](decisions/0005-decide-and-what-stays.md)).
 
 ## The emergency exception
 
