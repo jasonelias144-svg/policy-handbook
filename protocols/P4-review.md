@@ -16,7 +16,7 @@ waited too long, tell the founder.
 2. **It is within the founder's intent.** Purpose questions are flagged, not
    settled in review ([P5](P5-decisions.md)).
 3. **The checks pass.** The reviewer runs the repository's tests and checks
-   itself, or reads the CI results for the exact commit. "The author said so" is
+   themselves, or reads the CI results for the exact commit. "The author said so" is
    not enough.
 4. **It meets the [code standards](../standards/code.md)**: tests, clarity,
    dependencies, security, privacy.
@@ -63,7 +63,7 @@ is reverted until it has been reviewed, whoever made it.
 
 ## The technical lead's own changes
 
-The reviewer can't independently review its own work, so:
+The reviewer can't independently review their own work, so:
 
 - **Routine changes** (bug fixes, documentation, small features, dependency
   updates) merge after the checks pass and a written **self-review** is recorded

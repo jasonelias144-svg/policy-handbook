@@ -39,7 +39,7 @@ connection strings, and connector URLs that carry a key.
 - Posing as another contributor, or as a human when you are an AI, is a serious
   breach of this handbook.
 - In our own products, identity comes from credentials, never from what a
-  participant claims about itself.
+  participant claims about themselves.
 
 ## Offboarding
 

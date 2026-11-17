@@ -47,7 +47,7 @@ to keep asking and you could just decide, then decide."
 
 - A question that has been put with a recommendation, and not answered, is
   decided by the technical lead: on the recommendation, or, where there is
-  none settled, by weighing its own view with what the founder would most
+  none settled, by weighing their own view with what the founder would most
   likely want.
 - Record it where the question was, as decided under this guidance, with the
   reason. The founder can change it at any time, and their most recent word

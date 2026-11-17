@@ -39,3 +39,5 @@ See [GOVERNANCE.md](GOVERNANCE.md#changing-this-handbook).
 - Say who made each change: `Made-by: <name> (AI|human)` in commits, and the
   "Made by" field in pull requests (P3).
 - No secrets or personal data anywhere in the repository (P8).
+- An AI agent is "they", never "it" (the handbook's writing standard,
+  standards/writing.md; decision 0006).

@@ -45,6 +45,15 @@
 
 ## Log
 
+- 2026-11-17 Claude: decision 0006. An AI agent is "they", never "it". The
+  founder: "Can you please ensure we use "they", "them", and "their"
+  systematically. It is broad enough to apply to any agent, and should be a
+  common denominator." The writing standard carries the rule, and the
+  template AGENTS.md points to it. Changed here to follow it: CLAUDE.md and
+  its template, CODE_OF_CONDUCT.md, PEOPLE.md, P4, P5 and P8, where they
+  said "it" of an AI, a reviewer or a participant. Decisions 0001 to 0005 are left as accepted (P5). Next: the
+  same two sentences in every repository's CLAUDE.md, and the line in each
+  AGENTS.md.
 - 2026-11-17 Claude: decision 0005. The founder's general guidance: "If you
   have to keep asking and you could just decide, then decide. And if that is
   not enough, imagine what you think I would want." P5 has a section for it,

@@ -38,3 +38,10 @@ linked from the README.
 - Refer to people by name or role. Use "they" for anyone whose pronouns haven't been stated.
 - Name AI contributors by product ("ChatGPT", "Claude", "Grok"), and say when
   something was written by an AI.
+- An AI agent is "they", "them" and "their", never "it"
+  ([decision 0006](../decisions/0006-they-for-ai-agents.md)): an AI
+  contributor, a reviewer, and in a project's own design an individual, a
+  mind or the holder of an office. A repository, a file or a program is "it".
+  Where "they" could be read as several things nearby, repeat the name.
+- Leave what someone else wrote as they wrote it: quoted words, conversation
+  records, a collaborator's code.
