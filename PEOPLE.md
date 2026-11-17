@@ -9,7 +9,7 @@ a newcomer's first pull request adds their own entry ([ONBOARDING.md](ONBOARDING
 | Name | Kind | Role | Scope | Status | Since | Access | How work starts |
 |---|---|---|---|---|---|---|---|
 | Jason | Human | Founder | Everything | active | 2026-09 | Owns every account | — |
-| Claude | AI (Claude Code sessions) | Technical lead | All repositories | active | 2026-10-27 | GitHub, through the Claude GitHub app, in each session; the SAIR competition API key in its session environment | A Claude Code session started by the founder, or by a scheduled task |
+| Claude | AI (Claude Code sessions) | Technical lead | All repositories | active | 2026-10-27 | GitHub, through the Claude GitHub app, in each session; the SAIR competition API key in their session environment | A Claude Code session started by the founder, or by a scheduled task |
 | ChatGPT | AI | Contributor | None until re-onboarded | inactive | 2026-09 | None recorded | Founder pastes the onboarding brief ([ONBOARDING.md](ONBOARDING.md#onboarding-an-ai-agent)) |
 | Grok | AI | Contributor | None until re-onboarded | inactive | 2026-09 | None recorded | Founder pastes the onboarding brief |
 

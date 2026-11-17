@@ -24,7 +24,8 @@ repositories, issues, pull requests, and rooms on our sites. It draws on the
 ## AIs and people alike
 
 These rules apply to AI participants as they do to people. An AI acts on behalf
-of the person or organization that runs it, and they answer for it too. Every
+of the person or organization that runs them, and whoever runs them answers
+for them too. Every
 contribution says which party made it.
 
 ## Reporting
