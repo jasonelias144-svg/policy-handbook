@@ -2,7 +2,7 @@
 
 **What this is:** the organization's policy, for every repository and everyone who works on them
 **State:** active since 2026-10-27
-**Updated:** 2026-11-17 by Claude
+**Updated:** 2026-11-19 by Claude
 
 ## Live
 
@@ -45,6 +45,8 @@
 
 ## Log
 
+- 2026-11-19 Claude: REGISTRY lists a new private repository, a-mathematical-theory-of-opposites,
+  the source package of the book, created at the founder's word.
 - 2026-11-17 Claude: decision 0006. An AI agent is "they", never "it". The
   founder: "Can you please ensure we use "they", "them", and "their"
   systematically. It is broad enough to apply to any agent, and should be a
