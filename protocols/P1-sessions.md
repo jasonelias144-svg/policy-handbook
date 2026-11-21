@@ -37,9 +37,11 @@ down what the next one needs.
 2. **Update `STATUS.md` on your branch:** what you changed, the state now, the
    next step, open questions, and a line in the log. Use the
    [template](../templates/STATUS.md).
-3. **Open or update the pull request** using the template. If the work is
+3. **Archive, if the repository does** ([archives](../standards/archives.md)):
+   commit the pages, run its archive script, and commit what it moves.
+4. **Open or update the pull request** using the template. If the work is
    unfinished, open it as a draft so the handoff is visible.
-4. **Report to whoever started the session:** what was done, what was checked
+5. **Report to whoever started the session:** what was done, what was checked
    and how, what was not checked, and what comes next. Plainly; no padding.
 
 ## The handoff test
