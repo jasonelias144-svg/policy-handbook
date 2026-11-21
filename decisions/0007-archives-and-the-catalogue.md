@@ -52,8 +52,14 @@ reference script (open-worlds #137).
   its catalogue names stay in its history.
 - An archived entry is not edited again, except to redact; a decision
   that changes is changed by a new entry, as before.
-- Each repository adopts it when its living pages grow; the catalogues
-  share their fields, so they can later be read as one.
+- Each repository adopts it when its living pages grow. The
+  catalogues share their general fields; for other kinds of file to
+  join, the catalogue will move out of `archive/` to one for the whole
+  repository, which is still to be done.
+- The first review of the reference script found a paragraph that had
+  moved with an entry above it, a check that passed with no catalogue,
+  and writes that could stop halfway; all were fixed before it merged
+  (open-worlds #137).
 
 ## Dissent
 
