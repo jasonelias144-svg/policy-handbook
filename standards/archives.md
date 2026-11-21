@@ -22,8 +22,18 @@ already kept whole; they are catalogued, not archived.
   (`- YYYY-MM-DD ...`, or a `### YYYY-MM-DD ...` heading for a
   message), to its last line before the next entry or the end of its
   section. In a section of list items, a line at the left margin
-  inside an entry would move with it, so a run stops on one: put a
-  blank line before it, or indent it.
+  inside an entry would move with it, so a run stops on one: move it
+  above the section's first entry, or indent it to make it part of
+  the entry.
+- **Code blocks** (fenced with three or more backticks or tildes) hide
+  what is in them, so a block left open would join what follows it to
+  one entry. A run stops on a code block never closed, on one an entry
+  opens and does not close, and on a line inside a code block in a
+  dated section that would start an entry or a `## ` section (what a
+  block left open and closed by a later one holds): close the block
+  where it belongs, or indent that line.
+- **A date later than tomorrow** stops the run: a mistyped date would
+  hold the page's window open.
 - **What stays:** each living page keeps the entries of its three most
   recent days, counted over all its dated sections. A repository may
   choose another number in its `AGENTS.md`, with its reason.
