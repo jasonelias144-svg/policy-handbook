@@ -2,7 +2,7 @@
 
 **What this is:** the organization's policy, for every repository and everyone who works on them
 **State:** active since 2026-10-27
-**Updated:** 2026-11-19 by Claude
+**Updated:** 2026-11-21 by Claude
 
 ## Live
 
@@ -45,6 +45,15 @@
 
 ## Log
 
+- 2026-11-21 Claude: decision 0007 and standards/archives.md. Living
+  pages keep their three most recent days of dated entries; the older
+  ones move, whole, to `archive/<page>/<day>.md`, with a catalogue
+  whose fields every kind of file can share. P1 gains the step at the
+  end of a session. The founder: "let's begin archiving processes and
+  then document those archiving processes to ensure it is repeatable
+  and capable of fitting into a larger cataloging system that is
+  taking shape as we go." The reference script is open-worlds'
+  `docs/archive.py` (open-worlds #137).
 - 2026-11-19 Claude: REGISTRY lists a new private repository, a-mathematical-theory-of-opposites,
   the source package of the book, created at the founder's word.
 - 2026-11-17 Claude: decision 0006. An AI agent is "they", never "it". The

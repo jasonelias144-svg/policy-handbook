@@ -64,8 +64,9 @@ The details are in [GOVERNANCE.md](GOVERNANCE.md).
 | P8 | [Access](protocols/P8-access.md) | Accounts, keys, secrets or identity are involved |
 | P9 | [Repositories](protocols/P9-repositories.md) | A repository is created, set up or retired |
 
-Standards for the work itself: [code](standards/code.md) and
-[writing](standards/writing.md).
+Standards for the work itself: [code](standards/code.md),
+[writing](standards/writing.md), and [archives and the
+catalogue](standards/archives.md).
 
 ## If you are new
 
@@ -86,7 +87,8 @@ ONBOARDING.md        joining, returning and leaving
 PEOPLE.md            who works here, in what role, with what access
 REGISTRY.md          every repository: purpose, state, links
 protocols/           P1-P9: how work is done
-standards/           what good code and writing look like here
+standards/           what good code and writing look like here, and how
+                     living pages are archived and catalogued
 templates/           STATUS.md, AGENTS.md, CLAUDE.md, decision and incident records
 decisions/           organization-wide decision records, numbered
 CONTRIBUTING.md, SECURITY.md, .github/
