@@ -2,7 +2,7 @@
 
 **What this is:** the organization's policy, for every repository and everyone who works on them
 **State:** active since 2026-10-27
-**Updated:** 2026-11-21 by Claude
+**Updated:** 2026-11-22 by Claude
 
 ## Live
 
@@ -45,6 +45,9 @@
 
 ## Log
 
+- 2026-11-22 Claude: decision 0008, credit is authorship (who wrote what),
+  not where ideas came from; quotations give their source; results are
+  recorded so others can recreate them. P3 points to it.
 - 2026-11-22 Claude: TriNet added to the registry. The founder created the
   repository (public, empty); its first commit, the CC0 licence alone, was
   pushed to `main` at the founder's choice, since an empty repository has
