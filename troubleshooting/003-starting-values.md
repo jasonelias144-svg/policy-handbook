@@ -45,7 +45,8 @@ Which layer's starting values matter most, and why, has not been shown.
     missing ones. So that weight was never set at all.
   - It came out as NaN on transformers 5.24.0, and as numbers around 1e35
     on 4.46.3.
-  - Gemini's original code had set such weights.
+  - Gemini's original code had set such weights for the linear, embedding
+    and convolution layers.
   - The independent review of TriNet #2 found this.
 - **PyTorch's values, second version:** calling `reset_parameters()` on
   each layer in `_init_weights`. See below.
@@ -54,8 +55,10 @@ Which layer's starting values matter most, and why, has not been shown.
 
 - **PyTorch's own starting values** (change 5). Trained on the answers
   only: 100% in both seeds, at every length.
-- **A missing weight now gets a proper starting value too,** tested on
-  both versions.
+- **A missing linear, convolution, embedding or norm weight now gets
+  PyTorch's starting value,** tested on both versions. TriNet's own layer
+  parameters still do not, as in Gemini's code (TriNet `STATUS.md`,
+  "Noticed").
 - **How sure:**
   - With Gemini's values, one seed of two stalled (about 70%). With
     PyTorch's, neither did (100%).
