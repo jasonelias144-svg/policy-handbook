@@ -45,6 +45,12 @@
 
 ## Log
 
+- 2026-11-22 Claude: TriNet added to the registry. The founder created the
+  repository (public, empty); its first commit, the CC0 licence alone, was
+  pushed to `main` at the founder's choice, since an empty repository has
+  no `main` for a pull request to open against; the rest came through
+  TriNet #1 (P9).
+
 - 2026-11-21 Claude: decision 0007 and standards/archives.md. Living
   pages keep their three most recent days of dated entries; the older
   ones move, whole, to `archive/<page>/<day>.md`, with a catalogue
