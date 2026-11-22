@@ -27,7 +27,7 @@ the outputs matched, and the test could not tell.
 
 - **The equality test.** It could not fail: a model that ignores its cache
   and one that uses it correctly give the same output.
-- **Watching what the model is given.** The review added a spy that records
+- **Watching what the model is given.** The review used a spy that records
   the length of each input the model receives during generation:
   - 6, 7, 8, 9, 10 tokens on transformers 5.24.0: the whole text each time;
   - 6, 1, 1, 1, 1 on 4.46.3: one new token each time, as intended.
@@ -38,8 +38,9 @@ the outputs matched, and the test could not tell.
 - **A test of the mechanism, not just the output.** It asserts that after
   the first step, generation feeds the model one new token at a time.
 - **Proof that the test can fail.** We undid the fix and watched the test
-  fail on 5.24.0. Since then, every fix in that repository has been checked
-  the same way: undo it, and see its test fail.
+  fail on 5.24.0. Later fixes there were checked the same way, where the
+  record shows it: the fixes from the review of TriNet #2, and the tests
+  for change 6.
 - **How sure:** very. The spy's numbers and the failing test agree.
 
 ## For others

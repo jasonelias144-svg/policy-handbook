@@ -25,8 +25,8 @@ always overwrote the **second**. So "answer a pointer query with the first
 value bound" was always right. The models had learned that rule, not how to
 follow a pointer.
 
-A review of the generator's code noticed the fixed roles. The scores alone
-gave no hint.
+ChatGPT's review of the generator's code (their record 012-09-05, line
+16522) noticed the fixed roles. The scores alone gave no hint.
 
 ## What we tried
 
@@ -40,13 +40,15 @@ gave no hint.
     test episodes. (It is right when the pointer happens to name the first
     name, or a name with the same value.)
 - **Ruling out help from earlier answers.** In these texts, later queries
-  can see the answers to earlier ones. Scoring only the first query of
-  each episode gave the same picture (53.1 / 41.1 / 45.7%).
+  can see the answers to earlier ones, as the same review pointed out (line
+  16519). Scoring only the first query of each episode gave the same
+  picture (53.1 / 41.1 / 45.7%).
 
 ## What worked, and why
 
 - **Placing both roles at random in training** (change 6).
-  - Trained on answers alone: 100% on pointer queries, at every length.
+  - Trained on answers alone, TriNet scored 100% on pointer queries at
+    every length; the prototype scored 99.5 to 100% on all queries.
   - With random roles, no rule based on position can answer a pointer
     query. Only following the pointer can.
 - **How sure:** very. The models' scores matched the rule's score exactly,

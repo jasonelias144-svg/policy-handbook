@@ -31,9 +31,11 @@ Add one whenever a problem cost real time, or would cost someone else time.
 Copy the template below into a new file, numbered next in order, and add a
 row to the table. Write it in a pull request, like any other change (P3).
 
-- Say what happened, not who is to blame. Results belong to the project
-  ([decision 0008](../decisions/0008-credit-is-authorship.md)).
-- Separate what was measured from what is believed (the writing standard).
+- Say what happened, not who is to blame
+  ([decision 0008](../decisions/0008-credit-is-authorship.md), "Faults";
+  [EXPECTATIONS.md](../EXPECTATIONS.md), "No blame for honest mistakes").
+- Separate what was measured from what is believed
+  ([standards/writing.md](../standards/writing.md)).
 - Give numbers, commands and links, so others can repeat what we did.
 - Keep failed attempts in. They are half the value.
 - When a problem comes back or a fix stops working, update the entry and

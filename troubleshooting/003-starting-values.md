@@ -33,19 +33,35 @@ Which layer's starting values matter most, and why, has not been shown.
 - **Letting the gates also see the local context.** It changed nothing:
   69 to 71%, two seeds. This was measured before the fixes in entries 001
   and 005, so the figures are not comparable with those above. Both arms
-  of the comparison were measured the same way, so the comparison stands.
-- **PyTorch's own starting values** (`reset_parameters()` on each layer):
-  see below.
+  were measured the same way, so we believe the comparison holds, but it
+  was not repeated.
+- **PyTorch's values, first version: it broke loading.** The first version
+  of change 5 left every layer but TriNet's own untouched in
+  `_init_weights`, relying on the values PyTorch gives a layer when it is
+  built.
+  - That works for a new model.
+  - But when a saved checkpoint lacks a weight, transformers builds the
+    model without starting values and calls `_init_weights` to set the
+    missing ones. So that weight was never set at all.
+  - It came out as NaN on transformers 5.24.0, and as numbers around 1e35
+    on 4.46.3.
+  - Gemini's original code had set such weights.
+  - The independent review of TriNet #2 found this.
+- **PyTorch's values, second version:** calling `reset_parameters()` on
+  each layer in `_init_weights`. See below.
 
 ## What worked, and why
 
 - **PyTorch's own starting values** (change 5). Trained on the answers
   only: 100% in both seeds, at every length.
-- **A side effect.** A weight missing from a saved checkpoint had come
-  out as NaN on transformers 5.24.0 and as huge numbers on 4.46.3. It now
-  gets a proper starting value too.
-- **How sure:** the difference is large (about 70% against 100%), but it
-  rests on two seeds.
+- **A missing weight now gets a proper starting value too,** tested on
+  both versions.
+- **How sure:**
+  - With Gemini's values, one seed of two stalled (about 70%). With
+    PyTorch's, neither did (100%).
+  - On the task before entry 001's fix it was the same: 78.6 to 92.5%
+    against 100%, in both seeds.
+  - The difference is large, but it rests on two seeds.
 - **Still open.** Trained on every next character, as the training script
   does, the model learns the task only in part: 34% at best, in one seed of
   three. Starting values helped there in one seed only. What decides it is

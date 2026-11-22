@@ -1,9 +1,10 @@
 # 006. Same code, same seed, different results
 
-- **Status:** managed: the cause is understood and the runs are controlled
-  for it
-- **Where and when:** runs of a two-part TriNet model (BicameralTriNet) on
-  a CPU, 2026-11-22; PyTorch 2.15.0, transformers 5.24.0
+- **Status:** managed: the cause is inferred, not isolated, and the runs
+  are controlled for it
+- **Where and when:** the single TriNet trained beside a two-part TriNet
+  model (BicameralTriNet) in that model's benchmark, on a CPU, 2026-11-22;
+  PyTorch 2.15.0, transformers 5.24.0
 - **Links:** TriNet's
   [`experiments/README.md`](https://github.com/jasonelias144-svg/TriNet/blob/main/experiments/README.md),
   which records the threads and versions for each table. The runs
@@ -49,15 +50,23 @@ threads, or on a different machine or version.
   - the number of threads;
   - the versions of Python, PyTorch, transformers and NumPy.
 - **Treating single runs with care.** A difference between two models
-  smaller than the difference between two runs of one model means nothing.
-  Use several seeds.
-- **How sure:** the cause is standard and well understood. The size of the
-  effect here is from one pair of runs.
+  smaller than the difference between runs of one model cannot be told
+  from run-to-run noise. Use several seeds.
+- **How sure:**
+  - The Transformer's identical losses show that the data and starting
+    values were the same in both runs.
+  - That the thread count caused TriNet's difference is inferred from that,
+    and from how floating-point sums work. It was not isolated.
+  - There is one pair of runs, and no repeat at the same thread count.
 
 ## For others
 
 - Record the thread count, the library versions and the machine with every
   result, as carefully as the seed.
-- Before comparing models, run one model twice and see how far its results
-  move.
-- PyTorch's notes on reproducibility say what it does and does not promise.
+- Before comparing models, run one model with several seeds, and if you
+  can on another thread count, and see how far its results move. Two runs
+  with the same seed and threads on one machine usually match exactly, so
+  they tell you nothing about this.
+- PyTorch's
+  [notes on reproducibility](https://pytorch.org/docs/stable/notes/randomness.html)
+  say what it does and does not promise.

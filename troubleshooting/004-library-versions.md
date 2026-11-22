@@ -7,8 +7,8 @@
 
 ## What we saw
 
-The model's code was written in a conversation with an AI model whose
-sandbox did not have the transformers library. They tested it against a
+The model's code was written by Gemini, in a conversation, in a sandbox
+that did not have the transformers library. Gemini tested it against a
 stand-in of their own, and said so. Run with the real library, it failed
 in several places, differently in each version.
 
