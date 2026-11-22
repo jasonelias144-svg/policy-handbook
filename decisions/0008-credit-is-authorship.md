@@ -2,8 +2,8 @@
 
 - **Status:** accepted
 - **Date:** 2026-11-22
-- **Decided by:** founder, Jason (the rule); technical lead (how the pages
-  say it)
+- **Decided by:** founder, Jason (the rule); technical lead (how it is
+  applied: authorship pages, citing quotations, recording results)
 - **Recorded by:** Claude (technical lead)
 
 ## Context
@@ -36,7 +36,7 @@ came from, and wrote TriNet's credits that way. The founder, the same day:
 > repo. Let's not get into the nonsense of idea credit, only actual output
 > credit. And if a quote is already being reproduced in the records, then
 > provide the source of the quote. That's fine. But I strongly object to
-> the notion that we need to trace the origin of each idea.
+> the notion that we need to trace the origin of each idea. …
 
 ## Options considered
 
@@ -52,25 +52,43 @@ came from, and wrote TriNet's credits that way. The founder, the same day:
 
 ## Decision
 
+### The founder's rule
+
 - **Credit is authorship: who wrote what.** That means code, text, or any
-  part of a repository. Commits and pull requests say who made them (P3).
-  A repository with parts written by more than one author says who wrote
-  which part, on a short page or in its README. TriNet's `CONTRIBUTIONS.md`
-  is an example.
-- **Where ideas came from is not tracked.** In this organization ideas move
-  freely, and in the founder's words "they all came from me in some way".
-- **A quotation gives its source:** the record and the line. For a record
-  that is not in a public repository, it also gives the record's size and
-  SHA-256, so a reader can tell they have the same copy.
-- **A reviewer is named for what their review found, where it led to a
-  change.** P4 already does this for this organization's own reviews. The
-  same holds for a collaborator's review, such as ChatGPT's.
-- **Results belong to the project.** What fails falls on the project as a
-  whole, or on the founder, not on a collaborator. The record of who wrote
-  each part already shows where any line came from, so no separate record
-  of faults is kept. A self-review still says what its author got wrong
-  (P4).
-- **Records let others recreate the results.** A reported result says:
+  part of a repository. In the founder's words, "only authorship credit in
+  terms of who wrote what code or what part for the repo".
+- **Where ideas came from, among the founder and the collaborators, is not
+  tracked.** The founder's reasons are quoted above.
+- **A quotation gives its source:** "if a quote is already being
+  reproduced in the records, then provide the source of the quote."
+- **Negative results** "can fall upon the project as a whole, or myself".
+- **Records should let others recreate the results,** "in theory".
+
+### How it is applied (technical lead)
+
+- **What is still cited.** Prior art ([P2](../protocols/P2-proposals.md))
+  and published work are still cited, and a reviewer or a reporter is still
+  named for what they found (below). These are not the ideas the founder
+  meant.
+- **Faults.** No one is blamed for an honest mistake: that is already the
+  organization's rule ([EXPECTATIONS.md](../EXPECTATIONS.md), "No blame for
+  honest mistakes"; [P7](../protocols/P7-incidents.md)). Saying what a
+  piece of code did wrong, and whose code it is, is a fact. It is not blame.
+- **A repository with parts by more than one author says who wrote which
+  part,** on a short page or in its README. TriNet's `CONTRIBUTIONS.md` is
+  an example. In this organization one agent often commits what another
+  wrote: Claude pushed the code Gemini wrote in conversation. So when you
+  commit what someone else wrote, say so in the commit and the pull request
+  ([P3](../protocols/P3-changes.md)).
+- **A quotation's source** is who said or wrote it, and when. A quotation
+  from a conversation record also gives the record and the line. For a
+  record that is not in a public repository, it also gives the record's
+  size and SHA-256, so a reader can tell they have the same copy.
+- **A reviewer or reporter is named for what they found, where it led to a
+  change.** [SECURITY.md](../SECURITY.md) already credits the reporter of a
+  security problem, and TriNet credits its reviews the same way. A
+  collaborator's review, such as ChatGPT's, is named in the same way.
+- **A reported result says what is needed to recreate it:**
   - the command that produced it;
   - the version of the code;
   - the software versions;
@@ -84,9 +102,15 @@ came from, and wrote TriNet's credits that way. The founder, the same day:
 - TriNet's pull request #4 applies it: `CONTRIBUTIONS.md` says who wrote
   each part, ChatGPT is named as a reviewer where their review led to a
   change, and each result table says where it ran.
-- Pages written before this decision are not combed for statements about
-  where ideas came from. They change when they are next edited for another
-  reason.
+- **Existing work.**
+  - A repository with several authors adds its page on who wrote what when
+    it is next changed for another reason. open-worlds is one.
+  - Results reported before this decision are not rerun to add run
+    details. New results give them.
+  - Pages are not combed for statements about where ideas came from.
+- An authorship page is not one of every repository's required files
+  ([P9](../protocols/P9-repositories.md)). Only a repository with more than
+  one author needs one.
 
 ## Dissent
 
