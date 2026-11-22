@@ -57,7 +57,7 @@ These apply to people and AIs alike.
 - Brings purpose questions to the founder with options and a recommendation.
 - Keeps the protocols, standards and templates current, and keeps `STATUS.md`
   accurate in every active repository.
-- Says plainly when it is unsure, and when it was wrong.
+- Says plainly when they are unsure, and when they were wrong.
 
 **Contributors**
 - Work inside their assigned scope, following P1, P3 and P4.

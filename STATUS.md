@@ -51,7 +51,8 @@
   way found has been shown to work.
 - 2026-11-22 Claude: decision 0008, credit is authorship (who wrote what),
   not where ideas came from; quotations give their source; results are
-  recorded so others can recreate them. P3 points to it.
+  recorded so others can recreate them. P3 points to it. EXPECTATIONS.md:
+  "they" for the technical lead (decision 0006).
 - 2026-11-22 Claude: TriNet added to the registry. The founder created the
   repository (public, empty); its first commit, the CC0 licence alone, was
   pushed to `main` at the founder's choice, since an empty repository has

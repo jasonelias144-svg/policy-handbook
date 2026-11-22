@@ -49,8 +49,9 @@ someone else, is a breach of [EXPECTATIONS.md](../EXPECTATIONS.md).
 When you commit what someone else wrote, such as code a collaborator wrote
 in a conversation, say so in the commit and the pull request. A repository
 with parts by more than one author says who wrote which part. Credit is for
-who wrote what, not for where ideas came from, and a quotation gives its
-source ([decision 0008](../decisions/0008-credit-is-authorship.md)).
+who wrote what, not for where ideas came from among the founder and the
+collaborators, and a quotation gives its source
+([decision 0008](../decisions/0008-credit-is-authorship.md)).
 
 ## Pull requests
 
