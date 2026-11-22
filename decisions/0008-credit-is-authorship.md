@@ -76,10 +76,8 @@ came from, and wrote TriNet's credits that way. The founder, the same day:
   piece of code did wrong, and whose code it is, is a fact. It is not blame.
 - **A repository with parts by more than one author says who wrote which
   part,** on a short page or in its README. TriNet's `CONTRIBUTIONS.md` is
-  an example. In this organization one agent often commits what another
-  wrote: Claude pushed the code Gemini wrote in conversation. So when you
-  commit what someone else wrote, say so in the commit and the pull request
-  ([P3](../protocols/P3-changes.md)).
+  an example. When you commit what someone else wrote, say so in the commit
+  and the pull request ([P3](../protocols/P3-changes.md)).
 - **A quotation's source** is who said or wrote it, and when. A quotation
   from a conversation record also gives the record and the line. For a
   record that is not in a public repository, it also gives the record's
