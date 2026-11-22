@@ -91,6 +91,8 @@ standards/           what good code and writing look like here, and how
                      living pages are archived and catalogued
 templates/           STATUS.md, AGENTS.md, CLAUDE.md, decision and incident records
 decisions/           organization-wide decision records, numbered
+troubleshooting/     problems met, what was tried, what failed and why,
+                     what worked and why; written for anyone who meets them
 CONTRIBUTING.md, SECURITY.md, .github/
                      contributing guide, security policy and templates;
                      copied into every repository (P9)

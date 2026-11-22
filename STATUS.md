@@ -45,6 +45,10 @@
 
 ## Log
 
+- 2026-11-22 Claude: `troubleshooting/`, at the founder's request: what was
+  tried for each problem, what failed and why, what worked and why. Six
+  entries from TriNet; the entry on AI conversation limits waits until the
+  way found has been shown to work.
 - 2026-11-22 Claude: decision 0008, credit is authorship (who wrote what),
   not where ideas came from; quotations give their source; results are
   recorded so others can recreate them. P3 points to it.
