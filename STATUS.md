@@ -45,6 +45,9 @@
 
 ## Log
 
+- 2026-11-23 Claude: Involute added to the registry, as private. The founder
+  created the repository on 2026-11-23; its handbook files came with
+  Involute #1 (P9).
 - 2026-11-22 Claude: `troubleshooting/`, at the founder's request: what was
   tried for each problem, what failed and why, what worked and why. Six
   entries from TriNet; the entry on AI conversation limits waits until the
