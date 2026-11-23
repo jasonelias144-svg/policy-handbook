@@ -27,7 +27,15 @@ founder answered, 2026-11-23:
 - **A standing go-ahead, with no conditions.** Fast, but a broken or
   unverified entry could reach the leaderboard under the founder's name.
 - **A standing go-ahead behind a gate,** each submission reported. This is
-  what the technical lead recommended, and what the founder granted.
+  what the technical lead recommended, with one more condition: that
+  each submission beat our own previous best.
+
+The founder granted a standing go-ahead without conditions. The gate and
+the other safeguards below are the technical lead's own ("Decided by"),
+and they drop the "previous best" condition: a test, such as the first
+submission of the competition's own sample, or a probe of the
+leaderboard need not beat it, and the two final submissions, not the
+best score, are what is judged.
 
 ## Decision
 
@@ -55,9 +63,12 @@ These are in Involute's `docs/RULES.md` ("Our submissions") and
   forums without the founder.
 - **The account's token** lives only in the session environment's network
   secrets: never printed, written, or asked for in a conversation
-  ([P8](../protocols/P8-access.md)).
+  ([P8](../protocols/P8-access.md)). Every session in that environment
+  can use it, not only Involute's; the limit to this one project is kept
+  by practice, not enforced. [PEOPLE.md](../PEOPLE.md) lists the access.
 - **What stays the founder's:** the account itself, accepting rules and
-  terms, the choice of the two final submissions (unless the founder says
+  terms, people (team invitations and mergers on the account), the
+  choice of the two final submissions (unless the founder says
   otherwise), prize documents, and anything that costs money.
 
 ## Consequences
