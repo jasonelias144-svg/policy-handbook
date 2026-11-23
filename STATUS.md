@@ -2,7 +2,7 @@
 
 **What this is:** the organization's policy, for every repository and everyone who works on them
 **State:** active since 2026-10-27
-**Updated:** 2026-11-22 by Claude
+**Updated:** 2026-11-23 by Claude
 
 ## Live
 
@@ -45,6 +45,8 @@
 
 ## Log
 
+- 2026-11-23 Claude: decision 0009, the technical lead manages
+  Involute's Kaggle account and may submit, behind a gate (#20).
 - 2026-11-23 Claude: Involute added to the registry, as private. The founder
   created the repository on 2026-11-23; its handbook files came with
   Involute #1 (P9).

@@ -39,7 +39,7 @@ review as everyone else's.
 |---|---|---|
 | Purpose: what a project is for, who it serves, what it must never do | Director | Anyone may propose; the technical lead advises |
 | People: who works here, on what, and when they leave | Director | The technical lead may recommend |
-| Accounts, money, legal terms, anything that costs money | Director | The technical lead advises and implements |
+| Accounts, money, legal terms, anything that costs money | Director | The technical lead advises and implements. The director may hand an account's day-to-day management to the technical lead, as for Involute's Kaggle account ([decision 0009](decisions/0009-kaggle-account-for-involute.md)) |
 | Licences | Settled once: the founder's standing policy is one licence, always, for everything the founder makes public; CC0 1.0, chosen by the technical lead at the founder's request ([decision 0003](decisions/0003-licence-cc0.md), [P9](protocols/P9-repositories.md)) | The technical lead applies it everywhere without asking; only a departure from it goes to the director |
 | Starting or retiring a project | Director | The technical lead sets it up or winds it down ([P9](protocols/P9-repositories.md)) |
 | Code: architecture, languages, libraries, structure, standards | Technical lead | Contributors propose and argue their case |
