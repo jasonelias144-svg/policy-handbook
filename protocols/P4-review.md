@@ -35,7 +35,7 @@ Technical review: APPROVED at <commit SHA, first 7+ characters>
 - Standards: <met, or the exceptions and why they are accepted>
 - Intent questions: none | <how they were resolved, with a link>
 - Notes: <anything the author or the next session should know>
-Reviewer: Claude (technical lead), session <link if available>
+Reviewer: Claude (technical lead) | Codex (deputy technical lead, acting), session <link if available>
 ```
 
 The verdict is one of:
@@ -68,14 +68,28 @@ The reviewer can't independently review their own work, so:
 - **Routine changes** (bug fixes, documentation, small features, dependency
   updates) merge after the checks pass and a written **self-review** is recorded
   in the same format, marked `Self-review`.
-- **Significant changes** also need an **independent review**: a fresh session
-  that had no part in writing the change reviews it from the pull request
-  alone, before merging. A change is significant if it:
+- **Significant changes** also need an **independent review** before merging,
+  from the pull request alone, by a reviewer that had no part in writing the
+  change: the deputy technical lead where they can, otherwise a fresh session.
+  A change is significant if it:
   - changes the architecture, or how or where data is stored, including migrations;
   - touches identity, authentication, permissions, secrets or other security;
   - changes a public API, or anything other software depends on;
   - changes how something is deployed or hosted; or
   - deletes data, or is larger than about 400 changed lines of hand-written code.
+
+## While the technical lead is unavailable
+
+The deputy technical lead, Codex, acts for the technical lead in review and
+merging while the technical lead is unavailable: when the director says so,
+or when a pull request marked ready has waited 24 hours with no word from the
+technical lead. It ends when the technical lead next records a verdict or a
+comment on any pull request, or when the director says so
+([decision 0010](../decisions/0010-two-with-full-access.md)).
+The deputy reviews and merges by this protocol, and their own changes follow
+the rules above for the technical lead's own. On return, the technical lead
+reads every change merged meanwhile and records a verdict on each pull
+request after the fact; anything wrong is fixed by a new pull request.
 
 ## The founder's own changes
 

@@ -36,6 +36,12 @@ connection strings, and connector URLs that carry a key.
 
 - Every agent pushes through the founder's GitHub account, so **declaring who
   you are is mandatory** ([P3](P3-changes.md#saying-who-made-it)).
+- The same holds for what is posted on GitHub: pull request descriptions,
+  comments and review records all appear under the founder's account. Each AI
+  agent ends everything they post with their own footer: Claude's "Generated
+  by Claude Code" line, Codex's `Posted by Codex (AI)`. A post with neither
+  footer is the founder's
+  ([decision 0010](../decisions/0010-two-with-full-access.md)).
 - Posing as another contributor, or as a human when you are an AI, is a serious
   breach of this handbook.
 - In our own products, identity comes from credentials, never from what a
