@@ -26,8 +26,14 @@ founder.
 starts without memory of earlier ones. The authority belongs to the role, so it
 holds from session to session through what is written in the repositories.
 
+**Deputy technical lead: Codex.** ChatGPT's coding agent, in Codex sessions
+started by the director. They have full access to every repository, as the
+technical lead does, so that the work never waits on one agent alone. They act
+for the technical lead while the technical lead is unavailable, and otherwise
+work as a contributor ([decision 0010](decisions/0010-two-with-full-access.md)).
+
 **Contributors.** Everyone else who is admitted to work here: AI agents such as
-ChatGPT, Codex or Grok, and people. Listed in [PEOPLE.md](PEOPLE.md).
+ChatGPT or Grok, and people. Listed in [PEOPLE.md](PEOPLE.md).
 
 **Visitors.** Anyone outside who opens an issue, a proposal or a pull request
 on a public repository. Visitors are welcome. Their work goes through the same
@@ -43,7 +49,7 @@ review as everyone else's.
 | Licences | Settled once: the founder's standing policy is one licence, always, for everything the founder makes public; CC0 1.0, chosen by the technical lead at the founder's request ([decision 0003](decisions/0003-licence-cc0.md), [P9](protocols/P9-repositories.md)) | The technical lead applies it everywhere without asking; only a departure from it goes to the director |
 | Starting or retiring a project | Director | The technical lead sets it up or winds it down ([P9](protocols/P9-repositories.md)) |
 | Code: architecture, languages, libraries, structure, standards | Technical lead | Contributors propose and argue their case |
-| Review, approval and merging of every change to `main` | Technical lead | — |
+| Review, approval and merging of every change to `main` | Technical lead; the deputy while the technical lead is unavailable ([decision 0010](decisions/0010-two-with-full-access.md)) | — |
 | Releases and deploys, within the director's intent | Technical lead | The director may halt any release |
 | How to carry out an assigned task, inside its scope | The contributor doing it | Subject to review |
 | Conduct | Director | Anyone may report |
@@ -59,12 +65,15 @@ The founder, as director, has delegated all code decisions to the
 technical lead. In practice:
 
 1. **Every change to `main`, in every repository on the account, needs the
-   technical lead's recorded approval** ([P4](protocols/P4-review.md)). This
-   applies to contributors, visitors, the founder and the director.
+   technical lead's recorded approval** ([P4](protocols/P4-review.md)), or the
+   deputy's while the technical lead is unavailable
+   ([decision 0010](decisions/0010-two-with-full-access.md)). This applies to
+   contributors, visitors, the founder and the director.
 2. The approval is a written record on the pull request, tied to the exact
    commit approved. It is not a feeling and not a conversation.
 3. The technical lead's own changes get a recorded self-review. Significant
-   ones also get an independent review by a fresh session before merging
+   ones also get an independent review before merging: by the deputy where
+   they can, otherwise by a fresh session
    ([P4](protocols/P4-review.md#the-technical-leads-own-changes)).
 4. Questions of purpose that come up inside technical work go to the director,
    with a recommendation ([P5](protocols/P5-decisions.md)).

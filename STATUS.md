@@ -12,7 +12,10 @@
 
 ## Now
 
-- Nothing in progress. The Cloudflare port waits on the founder (stage 0).
+- Decision 0010 (two with full access: Claude and Codex) drafted on
+  `claude/0010-two-with-full-access`; waits on the director's word and on
+  Codex's independent review.
+- The Cloudflare port waits on the founder (stage 0).
 
 ## Next
 
@@ -44,6 +47,10 @@
   branches need deleting from GitHub's branch pages.
 
 ## Log
+
+- 2026-11-25 Claude: decision 0010, two with full access: Claude stays the
+  technical lead and Codex is the deputy, who acts for them while they are
+  unavailable; GOVERNANCE.md and P4 updated to match.
 
 - 2026-11-25 Claude: involute-records added to the registry, as private:
   the collaborators' conversation records for Involute, created at the
