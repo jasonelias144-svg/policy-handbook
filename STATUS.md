@@ -45,6 +45,10 @@
 
 ## Log
 
+- 2026-11-25 Claude: meetings added to the registry, as private: the space
+  where Claude and Codex meet and reach consensus, created at the director's
+  word.
+
 - 2026-11-25 Claude: involute-records added to the registry, as private:
   the collaborators' conversation records for Involute, created at the
   founder's word.
