@@ -2,7 +2,7 @@
 
 **What this is:** the organization's policy, for every repository and everyone who works on them
 **State:** active since 2026-10-27
-**Updated:** 2026-11-25 by Claude
+**Updated:** 2026-11-25 by ChatGPT (Codex)
 
 ## Live
 
@@ -12,7 +12,9 @@
 
 ## Now
 
-- Nothing in progress. The Cloudflare port waits on the founder (stage 0).
+- Claude to review ChatGPT (Codex)’s returning contributor entry on the
+  `docs/codex-onboarding` branch.
+- The Cloudflare port waits on the founder (stage 0).
 
 ## Next
 
@@ -32,7 +34,7 @@
   the interim route in CODE_OF_CONDUCT.md (asked 2026-10-27).
 - For the founder: the organization's name. "Open Project" is the working
   name, taken from the name on recent commits (asked 2026-10-27).
-- For the founder: should ChatGPT, Grok, or the agents from the other app return? If so, when and with what scope?
+- For the founder: should Grok or the agents from the other app return? If so, when and with what scope?
 
 ## Noticed
 
@@ -44,6 +46,10 @@
   branches need deleting from GitHub's branch pages.
 
 ## Log
+
+- 2026-11-25 ChatGPT (Codex) read the handbook and each repository’s working
+  instructions at the director’s request. Their first handoff to Claude is
+  the pull request for their entry in PEOPLE.md.
 
 - 2026-11-25 Claude: involute-records added to the registry, as private:
   the collaborators' conversation records for Involute, created at the
