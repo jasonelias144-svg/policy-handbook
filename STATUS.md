@@ -49,8 +49,10 @@
 ## Log
 
 - 2026-11-25 Claude: decision 0010, two with full access: Claude stays the
-  technical lead and Codex is the deputy, who acts for them while they are
-  unavailable; GOVERNANCE.md and P4 updated to match.
+  technical lead, in charge with the final word on code, and Codex is the
+  deputy, who acts for them while they are unavailable; responsibilities
+  are shared step by step, by the technical lead's choice and the agreement
+  of all three. GOVERNANCE.md and P4 updated to match.
 
 - 2026-11-25 Claude: involute-records added to the registry, as private:
   the collaborators' conversation records for Involute, created at the

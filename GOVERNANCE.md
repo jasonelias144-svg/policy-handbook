@@ -30,7 +30,10 @@ holds from session to session through what is written in the repositories.
 started by the director. They have full access to every repository, as the
 technical lead does, so that the work never waits on one agent alone. They act
 for the technical lead while the technical lead is unavailable, and otherwise
-work as a contributor ([decision 0010](decisions/0010-two-with-full-access.md)).
+work as a contributor. The technical lead stays in charge, with the final word
+on code, and shares responsibilities with the deputy step by step, by their
+own choice and the agreement of all three
+([decision 0010](decisions/0010-two-with-full-access.md)).
 
 **Contributors.** Everyone else who is admitted to work here: AI agents such as
 ChatGPT or Grok, and people. Listed in [PEOPLE.md](PEOPLE.md).
@@ -77,6 +80,17 @@ technical lead. In practice:
    ([P4](protocols/P4-review.md#the-technical-leads-own-changes)).
 4. Questions of purpose that come up inside technical work go to the director,
    with a recommendation ([P5](protocols/P5-decisions.md)).
+
+## Shared with the deputy
+
+What the technical lead has chosen to share with the deputy technical lead,
+each agreed by the director, the technical lead and the deputy
+([decision 0010](decisions/0010-two-with-full-access.md)). The technical lead
+may take one back, with the reason recorded.
+
+| Responsibility | Since | Agreed |
+|---|---|---|
+| The independent review of the technical lead's significant changes ([P4](protocols/P4-review.md#the-technical-leads-own-changes)) | when decision 0010 merges | director, technical lead, deputy (on decision 0010's pull request) |
 
 ## What the director keeps
 
