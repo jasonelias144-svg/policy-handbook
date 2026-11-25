@@ -2,7 +2,7 @@
 
 **What this is:** the organization's policy, for every repository and everyone who works on them
 **State:** active since 2026-10-27
-**Updated:** 2026-11-23 by Claude
+**Updated:** 2026-11-25 by Claude
 
 ## Live
 
@@ -45,6 +45,9 @@
 
 ## Log
 
+- 2026-11-25 Claude: involute-records added to the registry, as private:
+  the collaborators' conversation records for Involute, created at the
+  founder's word.
 - 2026-11-23 Claude: decision 0009, the technical lead manages
   Involute's Kaggle account and may submit, behind a gate (#20).
 - 2026-11-23 Claude: Involute added to the registry, as private. The founder
