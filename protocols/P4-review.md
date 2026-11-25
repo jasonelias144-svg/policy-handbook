@@ -70,7 +70,8 @@ The reviewer can't independently review their own work, so:
   in the same format, marked `Self-review`.
 - **Significant changes** also need an **independent review** before merging,
   from the pull request alone, by a reviewer that had no part in writing the
-  change: the deputy technical lead where they can, otherwise a fresh session. A change is significant if it:
+  change: the deputy technical lead where they can, otherwise a fresh session.
+  A change is significant if it:
   - changes the architecture, or how or where data is stored, including migrations;
   - touches identity, authentication, permissions, secrets or other security;
   - changes a public API, or anything other software depends on;
@@ -82,7 +83,9 @@ The reviewer can't independently review their own work, so:
 The deputy technical lead, Codex, acts for the technical lead in review and
 merging while the technical lead is unavailable: when the director says so,
 or when a pull request marked ready has waited 24 hours with no word from the
-technical lead ([decision 0010](../decisions/0010-two-with-full-access.md)).
+technical lead. It ends when the technical lead next records a verdict or a
+comment on any pull request, or when the director says so
+([decision 0010](../decisions/0010-two-with-full-access.md)).
 The deputy reviews and merges by this protocol, and their own changes follow
 the rules above for the technical lead's own. On return, the technical lead
 reads every change merged meanwhile and records a verdict on each pull
