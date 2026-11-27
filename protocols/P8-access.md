@@ -31,6 +31,10 @@ connection strings, and connector URLs that carry a key.
 - How long data is kept and what is made public are intent decisions, for the
   founder ([P5](P5-decisions.md#intent-or-code)).
 - Never copy real users' data into tests, issues or chats.
+- The founder's own information (his name, email addresses, account names
+  and pronouns) is public by his choice
+  ([decision 0010](../decisions/0010-the-founders-information-is-public.md)).
+  Everyone else's follows the rules above.
 
 ## Identity
 
