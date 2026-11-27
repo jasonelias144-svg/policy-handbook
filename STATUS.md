@@ -2,7 +2,7 @@
 
 **What this is:** the organization's policy, for every repository and everyone who works on them
 **State:** active since 2026-10-27
-**Updated:** 2026-11-25 by Claude
+**Updated:** 2026-11-27 by Claude
 
 ## Live
 
@@ -45,6 +45,10 @@
 
 ## Log
 
+- 2026-11-27 Claude: decision 0010, the founder's own information (name,
+  both email addresses, account names, pronouns) is public by his choice;
+  P8 points to it. The founder's profile repository was added to the
+  registry the same day (#25).
 - 2026-11-25 Claude: meetings added to the registry, as private: the space
   where Claude and Codex meet and reach consensus, created at the director's
   word.
